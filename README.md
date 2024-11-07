@@ -33,6 +33,9 @@ The main goal of this project is to create a **functional website for a band cal
 # PÄEV 2
 - We started writing the code
 
+![image](https://github.com/user-attachments/assets/4f5b69d9-5949-4348-be89-badae458b2be)
+
+
 # PÄEV 3
 
 
