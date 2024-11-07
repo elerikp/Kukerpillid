@@ -65,21 +65,25 @@ The main goal of this project is to create a **functional website for a band cal
 3. 
 
 **Gregor Tali**
+
 1. 
 2. 
 3. 
 
 **Nora Valk**
+
 1. 
 2. 
 3. 
 
 **Ragnar Õige**
+
 1. 
 2. 
 3. 
 
 **Kaspar Truu**
+
 1. 
 2. 
 3. 
