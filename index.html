@@ -3,155 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Tags Reference</title>
+    <title>CSS Basics Tutorial</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>HTML Tags Reference</h1>
+    <h1>CSS Basics</h1>
+    <h2>What is CSS?</h2>
+    <p>CSS (Cascading Style Sheets) is a styling language used to control the layout and appearance of web pages written in HTML or XML.</p>
+    <h2>Basic CSS Syntax</h2>
+    <p>CSS syntax consists of a selector, a property, and a value. The selector specifies the HTML element to style, the property specifies the aspect of the element to style, and the value specifies the style to apply.</p>
+    <pre><code>selector {
+    property: value;
+    }
+    </code></pre>
+    <p>Class: Defined with a period (.) followed by the class name. Example:</p>
+        <pre><code>.classname { property: value; }</code></pre>
+    <p>ID: Defined with a hash (#) followed by the ID name. Example:</p>
+        <pre><code>#idname { property: value; }</code></pre>
+    <h2>Common CSS Properties</h2>
     <ul>
-        <li><strong>&lt;html&gt;</strong>: The root element of an HTML page. Example: <code>&lt;html&gt;...&lt;/html&gt;</code></li>
-        <li><strong>&lt;head&gt;</strong>: Contains meta-information about the document. Example: <code>&lt;head&gt;...&lt;/head&gt;</code></li>
-        <li><strong>&lt;title&gt;</strong>: Sets the title of the document, shown in the browser tab. Example: <code>&lt;title&gt;My Page&lt;/title&gt;</code></li>
-        <li><strong>&lt;body&gt;</strong>: Contains the content of the document. Example: <code>&lt;body&gt;...&lt;/body&gt;</code></li>
-        <li><strong>&lt;p&gt;</strong>: Defines a paragraph. Example: <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></li>
-        <li><strong>&lt;a&gt;</strong>: Defines a hyperlink. Example: <code>&lt;a href="https://www.example.com" target="_blank"&gt;Visit Example&lt;/a&gt;</code>
-            <br> <a href="https://www.example.com" target="_blank">Visit Example</a>
+        <li><strong>color</strong>: Sets the text color.</li>
+        <li><strong>background-color</strong>: Sets the background color.</li>
+        <li><strong>font-size</strong>: Sets the font size.</li>
+        <li><strong>font-family</strong>: Sets the font family.</li>
+        <li><strong>text-align</strong>: Sets the text alignment.</li>
+        <li><strong>margin</strong>: Sets the outer space around an element.</li>
+        <li><strong>padding</strong>: Sets the inner space between the element's content and its border.</li>
+        <li><strong>border</strong>: Sets the border around an element.</li>
+        <li><strong>width</strong>: Sets the width of an element.</li>
+        <li><strong>height</strong>: Sets the height of an element.</li>
+        <li><strong>display</strong>: Specifies the display behavior of an element (e.g., block, inline).</li>
+        <li><strong>font-weight</strong>: Sets the weight (boldness) of the font.</li>
+        <li><strong>line-height</strong>: Sets the height of a line box.</li>
+        <li><strong>text-decoration</strong>: Specifies the decoration of text (e.g., underline, none).</li>
+        <li><strong>opacity</strong>: Sets the transparency level of an element.</li>
+        <li><strong>overflow</strong>: Specifies what happens if content overflows an element's box.</li>
+        <li><strong>position</strong>: Specifies the type of positioning method used for an element (e.g., static, relative, absolute, fixed).</li>
+        <li><strong>flex</strong>: Defines the ability for a flex item to grow or shrink to fit the space available.</li>
+        <li><strong>grid</strong>: Defines the grid layout for an element.</li>
+        <li><strong>box-shadow</strong>: Applies shadow effects around an element's frame.</li>
+        <li><strong>text-shadow</strong>: Applies shadow effects to text.</li>
+        <li><strong>transition</strong>: Specifies the transition effect when changing property values.</li>
+        <li><strong>transform</strong>: Applies a 2D or 3D transformation to an element.</li>
+        <li><strong>z-index</strong>: Sets the stack order of an element (which element appears on top).</li>
+        <li><strong>cursor</strong>: Specifies the type of cursor to be displayed when pointing over an element.</li>
+        <li><strong>visibility</strong>: Specifies whether an element is visible or hidden.</li>
+        <li><strong>float</strong>: Specifies how an element should float (e.g., left, right, none).</li>
+        <li><strong>clear</strong>: Specifies what elements can float beside the cleared element and on which side.</li>
+        <li><strong>list-style</strong>: Specifies the type of list item marker (e.g., disc, circle, square).</li>
+        <li><strong>text-transform</strong>: Controls the capitalization of text (e.g., uppercase, lowercase, capitalize).</li>
+        <li><strong>white-space</strong>: Specifies how white space inside an element is handled.</li>
+        <li><strong>word-spacing</strong>: Sets the spacing between words in a text.</li>
+        <li><strong>background-image</strong>: Sets an image as the background of an element.</li>
+        <li><strong>background-repeat</strong>: Specifies whether a background image should repeat.</li>
+        <li><strong>background-size</strong>: Specifies the size of the background image.</li>
+        <li><strong>border-radius</strong>: Rounds the corners of an element's border.</li>
+        <li><strong>opacity</strong>: Sets the transparency level of an element.</li>
+        <li><strong>text-indent</strong>: Indents the first line of text in an element.</li>
+        <li><strong>vertical-align</strong>: Sets the vertical alignment of an inline or table-cell element.</li>
+    </ul>
+    <h2>Applying CSS</h2>
+    <p>CSS can be applied to HTML documents in three ways:</p>
+    <ol>
+        <li><strong>Inline Styles</strong>: Directly in the HTML element using the style attribute. Example:
+            <pre><code>&lt;h1 style="color: blue;"&gt;This is a heading&lt;/h1&gt;</code></pre>
         </li>
-        <li><strong>&lt;div&gt;</strong>: A container for HTML elements. Example: <code>&lt;div&gt;Content here&lt;/div&gt;</code></li>
-        <li><strong>&lt;span&gt;</strong>: A container for inline elements. Example: <code>&lt;span&gt;Inline text&lt;/span&gt;</code></li>
-        <li><strong>&lt;img&gt;</strong>: Embeds an image in the document. Example: <code>&lt;img src="image.jpg" alt="Description"&gt;</code>
-            <br> <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+        <li><strong>Internal Stylesheet</strong>: In the HTML document using the style element. Example:
+            <pre><code>&lt;style&gt;</code></pre>
+            <pre><code>h1 { color: blue; }</code></pre>
+            <pre><code>&lt;/style&gt;</code></pre>
         </li>
-        <li><strong>&lt;ul&gt;</strong>: Defines an unordered list. Example: <code>&lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;</code></li>
-        <li><strong>&lt;ol&gt;</strong>: Defines an ordered list. Example: <code>&lt;ol&gt;&lt;li&gt;First item&lt;/li&gt;&lt;/ol&gt;</code></li>
-        <li><strong>&lt;li&gt;</strong>: Defines a list item. Example: <code>&lt;li&gt;List item&lt;/li&gt;</code></li>
-        <li><strong>&lt;h1&gt;</strong>: Defines a heading level 1. Example: <code>&lt;h1&gt;Main Heading&lt;/h1&gt;</code></li>
-        <li><strong>&lt;h2&gt;</strong>: Defines a heading level 2. Example: <code>&lt;h2&gt;Subheading&lt;/h2&gt;</code></li>
-        <li><strong>&lt;br&gt;</strong>: Defines a line break. Example: <code>&lt;br&gt;</code></li>
-        <li><strong>&lt;header&gt;</strong>: Represents introductory content. Example: <code>&lt;header&gt;...&lt;/header&gt;</code></li>
-        <li><strong>&lt;nav&gt;</strong>: Represents a section of navigation links. Example: <code>&lt;nav&gt;...&lt;/nav&gt;</code></li>
-        <li><strong>&lt;footer&gt;</strong>: Represents the footer of a document. Example: <code>&lt;footer&gt;...&lt;/footer&gt;</code></li>
-        <li><strong>&lt;section&gt;</strong>: Represents a thematic grouping of content. Example: <code>&lt;section&gt;...&lt;/section&gt;</code></li>
-        <li><strong>&lt;article&gt;</strong>: Represents a self-contained composition. Example: <code>&lt;article&gt;...&lt;/article&gt;</code></li>
-        <li><strong>&lt;aside&gt;</strong>: Represents content related to the main content. Example: <code>&lt;aside&gt;...&lt;/aside&gt;</code></li>
-        <li><strong>&lt;form&gt;</strong>: Represents a form for user input. Example: <code>&lt;form&gt;...&lt;/form&gt;</code>
-            <br>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
-                <input type="submit" value="Submit">
-            </form>
+        <li><strong>External Stylesheet</strong>: In an external file linked to the HTML document. Example:
+            <pre><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></pre>
+            <p>And in <code>styles.css</code>:</p>
+            <pre><code>h1 { color: blue; }</code></pre>
         </li>
-        <li><strong>&lt;input&gt;</strong>: Represents an input control. Example: <code>&lt;input type="text"&gt;</code>
-            <br> <input type="text" placeholder="Enter your name">
+    </ol>
+    <h2>Pseudo-Classes</h2>
+    <p>Pseudo-classes are used to define the special state of an element. They allow you to apply styles based on user
+        interaction or the state of an element. Here are some commonly used pseudo-classes:</p>
+    <ul>
+        <li><strong>:hover</strong>: Applies styles when the user hovers over an element. Example:
+            <pre><code>a:hover { color: red; }</code></pre>
         </li>
-        <li><strong>&lt;button&gt;</strong>: Represents a clickable button. Example: <code>&lt;button&gt;...&lt;/button&gt;</code>
-            <br> <button type="button">Click Me!</button>
+        <li><strong>:active</strong>: Applies styles when an element is being activated (e.g., clicked). Example:
+            <pre><code>button:active { background-color: blue; }</code></pre>
         </li>
-        <li><strong>&lt;table&gt;</strong>: Represents tabular data. Example: <code>&lt;table&gt;...&lt;/table&gt;</code>
-            <br>
-            <table border="1">
-                <tr>
-                    <th>Name</th>
-                    <th>Age</th>
-                </tr>
-                <tr>
-                    <td>John Doe</td>
-                    <td>30</td>
-                </tr>
-            </table>
+        <li><strong>:focus</strong>: Applies styles when an element is focused (e.g., clicked or tabbed into). Example:
+            <pre><code>input:focus { border: 2px solid green; }</code></pre>
         </li>
-        <li><strong>&lt;blockquote&gt;</strong>: Represents a quoted section. Example: <code>&lt;blockquote&gt;...&lt;/blockquote&gt;</code>
-            <br> <blockquote>This is a famous quote.</blockquote>
-        </li>
-        <li><strong>&lt;label&gt;</strong>: Represents a caption for an item. Example: <code>&lt;label&gt;...&lt;/label&gt;</code>
-            <br> <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-        </li>
-        <li><strong>&lt;textarea&gt;</strong>: Represents a multi-line text input. Example: <code>&lt;textarea&gt;...&lt;/textarea&gt;</code>
-            <br> <textarea rows="4" cols="50" placeholder="Enter your message here..."></textarea>
-        </li>
-        <li><strong>&lt;select&gt;</strong>: Represents a menu of options. Example: <code>&lt;select&gt;...&lt;/select&gt;</code>
-            <br>
-            <select>
-                <option value="option1">Option 1</option>
-                <option value="option2">Option 2</option>
-            </select>
-        </li>
-        <li><strong>&lt;progress&gt;</strong>: Represents the progress of a task. Example: <code>&lt;progress&gt;...&lt;/progress&gt;</code>
-            <br> <progress value="70" max="100">70%</progress>
-        </li>
-        <li><strong>&lt;meter&gt;</strong>: Represents a scalar measurement. Example: <code>&lt;meter&gt;...&lt;/meter&gt;</code>
-            <br> <meter value="0.6">60%</meter>
-        </li>
-        <li><strong>&lt;canvas&gt;</strong>: Used for drawing graphics. Example: <code>&lt;canvas&gt;...&lt;/canvas&gt;</code>
-            <br> <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
-        </li>
-        <li><strong>&lt;svg&gt;</strong>: Represents Scalable Vector Graphics. Example: <code>&lt;svg&gt;...&lt;/svg&gt;</code>
-            <br>
-            <svg width="100" height="100">
-                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
-            </svg>
-        </li>
-        <li><strong>&lt;iframe&gt;</strong>: Embeds another HTML page. Example: <code>&lt;iframe&gt;...&lt;/iframe&gt;</code>
-            <br> <iframe src="https://www.example.com" width="300" height="200"></iframe>
-        </li>
-        <li><strong>&lt;details&gt;</strong>: Represents a disclosure widget. Example: <code>&lt;details&gt;...&lt;/details&gt;</code>
-            <br>
-            <details>
-                <summary>Click to expand</summary>
-                <p>This is additional information that can be toggled.</p>
-            </details>
-        </li>
-        <li><strong>&lt;time&gt;</strong>: Represents a specific period in time. Example: <code>&lt;time&gt;...&lt;/time&gt;</code>
-            <br> <time datetime="2023-10-01">October 1, 2023</time>
-        </li>
-        <li><strong>&lt;abbr&gt;</strong>: Represents an abbreviation. Example: <code>&lt;abbr&gt;...&lt;/abbr&gt;</code>
-            <br> <abbr title="Hypertext Markup Language">HTML</abbr>
-        </li>
-        <li><strong>&lt;cite&gt;</strong>: Represents the title of a work. Example: <code>&lt;cite&gt;...&lt;/cite&gt;</code>
-            <br> <cite>The Great Gatsby</cite>
-        </li>
-        <li><strong>&lt;code&gt;</strong>: Represents a fragment of code. Example: <code>&lt;code&gt;...&lt;/code&gt;</code>
-            <br> <code>console.log('Hello, World!');</code>
-        </li>
-        <li><strong>&lt;strong&gt;</strong>: Represents strong importance. Example: <code>&lt;strong&gt;...&lt;/strong&gt;</code>
-            <br> <strong>This text is important.</strong>
-        </li>
-        <li><strong>&lt;em&gt;</strong>: Represents emphasized text. Example: <code>&lt;em&gt;...&lt;/em&gt;</code>
-            <br> <em>This text is emphasized.</em>
-        </li>
-        <li><strong>&lt;small&gt;</strong>: Represents small print. Example: <code>&lt;small&gt;...&lt;/small&gt;</code>
-            <br> <small>This is small text.</small>
-        </li>
-        <li><strong>&lt;mark&gt;</strong>: Represents highlighted text. Example: <code>&lt;mark&gt;...&lt;/mark&gt;</code>
-            <br> <mark>This text is highlighted.</mark>
-        </li>
-        <li><strong>&lt;del&gt;</strong>: Represents deleted text. Example: <code>&lt;del&gt;...&lt;/del&gt;</code>
-            <br> <del>This text has been deleted.</del>
-        </li>
-        <li><strong>&lt;ins&gt;</strong>: Represents inserted text. Example: <code>&lt;ins&gt;...&lt;/ins&gt;</code>
-            <br> <ins>This text has been inserted.</ins>
-        </li>
-        <li><strong>&lt;sub&gt;</strong>: Represents subscript text. Example: <code>&lt;sub&gt;...&lt;/sub&gt;</code>
-            <br> H<sub>2</sub>O
-        </li>
-        <li><strong>&lt;sup&gt;</strong>: Represents superscript text. Example: <code>&lt;sup&gt;...&lt;/sup&gt;</code>
-            <br> E = mc<sup>2</sup>
-        </li>
-        <li><strong>&lt;address&gt;</strong>: Represents contact information for the author or owner of a document. Example: <code>&lt;address&gt;...&lt;/address&gt;</code>
-            <br>
-            <address>
-                Contact us at: <a href="mailto:info@example.com">info@example.com</a>
-            </address>
-        </li>
-        <li><strong>&lt;template&gt;</strong>: Represents a container for content that is not rendered when the page loads but can be instantiated later. Example: <code>&lt;template&gt;...&lt;/template&gt;</code>
-            <br>
-            <template id="myTemplate">
-                <p>This is a template content.</p>
-            </template>
+        <li><strong>:visited</strong>: Applies styles to links that have been visited. Example:
+            <pre><code>a:visited { color: purple; }</code></pre>
         </li>
     </ul>
-    <script src="script.js"></script>
+    <h2>Pseudo-Elements</h2>
+    <p>Pseudo-elements are used to style specific parts of an element. They allow you to apply styles to a portion of an element's content without needing to add additional HTML elements. Here are some commonly used pseudo-elements:</p>
+    <ul>
+        <li><strong>::before</strong>: Inserts content before the content of an element. Example:
+            <pre><code>p::before { content: "Note: "; font-weight: bold; }</code></pre>
+        </li>
+        <li><strong>::after</strong>: Inserts content after the content of an element. Example:
+            <pre><code>p::after { content: " (end)"; }</code></pre>
+        </li>
+        <li><strong>::first-line</strong>: Styles the first line of a block of text. Example:
+            <pre><code>p::first-line { font-weight: bold; }</code></pre>
+        </li>
+        <li><strong>::first-letter</strong>: Styles the first letter of a block of text. Example:
+            <pre><code>p::first-letter { font-size: 2em; }</code></pre>
+        </li>
+        <li><strong>::selection</strong>: Styles the portion of an element that has been highlighted by the user. Example:
+            <pre><code>p::selection { background: yellow; color: black; }</code></pre>
+        </li>
+        <li><strong>::placeholder</strong>: Styles the placeholder text of an input element. Example:
+            <pre><code>input::placeholder { color: gray; }</code></pre>
+        </li>
+        <li><strong>::marker</strong>: Styles the marker box of a list item. Example:
+            <pre><code>li::marker { color: red; }</code></pre>
+        </li>
+        <li><strong>::backdrop</strong>: Styles the backdrop of a modal or dialog. Example:
+            <pre><code>dialog::backdrop { background: rgba(0, 0, 0, 0.5); }</code></pre>
+        </li>
+    </ul>
 </body>
 </html>
