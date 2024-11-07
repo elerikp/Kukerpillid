@@ -12,11 +12,11 @@ The main goal of this project is to create a **functional website for a band cal
 - VsCode
 - Figma
   
-## 📓 Links from the project
+## Links from the project
 - [Figma]https://www.figma.com/proto/3rSbWZnBV1vHMJbgHGRiNL/Untitled?node-id=0-1&t=ugUOtKGiuwMOvcuT-1
 - [Project]
 
-## ⚡Our team members:
+## Our team members:
 
 - Eleri Kupits
 - Taaniel Tiidussalu
