@@ -1,4 +1,3 @@
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: #ECA817;
     overflow: hidden;
@@ -20,9 +19,13 @@ body {
 }
 
 .backg {
-    position: relative;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
+
 
 .img2 {
     width: 100%;
@@ -30,66 +33,19 @@ body {
     object-fit: cover;
     display: block;
 }
+.band-section{
+ color: white;
+ text-align: center;
+ position: absolute;
+}
 
-.history-button {
-    position: absolute;
-    top: 50%; /* Centers button vertically */
-    left: 50%; /* Centers button horizontally */
-    transform: translate(-50%, -50%); /* Offsets for perfect centering */
-    background-color: #d19100;
-    color: #000;
-    border: none;
-    border-radius: 24px;
-    padding: 60px 80px;
-    font-size: 32px;
+.bold {
+    font-weight: bold ;
+}
+ .top{
+    color: white;
     text-align: center;
-    cursor: pointer;
-    font-family: Arial, sans-serif;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.history-button:hover {
-    background-color: #b07900;
-}
-
-.authors-button {
     position: absolute;
-    top: 25%; /* Centers button vertically */
-    left: 50%; /* Centers button horizontally */
-    transform: translate(-50%, -50%); /* Offsets for perfect centering */
-    background-color: #d19100;
-    color: #000;
-    border: none;
-    border-radius: 24px;
-    padding: 60px 80px;
-    font-size: 32px;
-    text-align: center;
-    cursor: pointer;
-    font-family: Arial, sans-serif;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.authors-button:hover {
-    background-color: #b07900;
-}
-
-.music-button {
-    position: absolute;
-    top: 75%; /* Centers button vertically */
-    left: 50%; /* Centers button horizontally */
-    transform: translate(-50%, -50%); /* Offsets for perfect centering */
-    background-color: #d19100;
-    color: #000;
-    border: none;
-    border-radius: 24px;
-    padding: 60px 80px;
-    font-size: 32px;
-    text-align: center;
-    cursor: pointer;
-    font-family: Arial, sans-serif;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.music-button:hover {
-    background-color: #b07900;
-}
+    left: 41%;
+    top: 10%;
+ }
