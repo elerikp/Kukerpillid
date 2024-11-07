@@ -23,6 +23,19 @@ The main goal of this project is to create a **functional website for a band cal
 - Ragnar Õige
 - Kaspar Truu
 -----------
+
+# PÄEV 1
+- We chose a band called Kukerpillid.
+- We thought out the design for the website.
+- We started the visual design in figma.
+- We finished the visual design in figma
+
+# PÄEV 2
+- We started writing the code
+
+# PÄEV 3
+
+
 **TIIMI TAGASISIDE**
 
 **Küsimused:**
