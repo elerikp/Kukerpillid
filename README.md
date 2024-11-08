@@ -64,9 +64,9 @@ The main goal of this project is to create a **functional website for a band cal
 
 **Taaniel Tiidussalu**
 
-1. 
-2. 
-3. 
+1. Kuna sain järjekordselt rohkem teadmisi figma kasutamises siis tuleb see kasuks
+2. Suhtlemisvõimet ja enda selgemalt väljendamist
+3. Figmas componentide loomine ja nende korrektne kasutamine
 
 **Gregor Tali**
 
