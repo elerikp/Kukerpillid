@@ -80,9 +80,9 @@ The main goal of this project is to create a **functional website for a band cal
 
 **Ragnar Õige**
 
-1. 
-2. 
-3. 
+1. Järgimises projektis tean kuidas paremini kasutada GitHubi, HTMLi ja CSSi.  
+2. Sain rohkem teada ja õppisin rohkem meeskonna tööst.
+3. Õppisin ja arendasin rohkem Figma kasutamist ja tegemist.
 
 **Kaspar Truu**
 
