@@ -74,9 +74,9 @@ The main goal of this project is to create a **functional website for a band cal
 
 **Nora Valk**
 
-1. 
-2. 
-3. 
+1. Oskan paremini figmat kasutada ja natukene koodi kirjutada.
+2. Õppisin paremini tiimitööd tegema.
+3. Arendasin suhtlus oskust ja koodi kirjutamis oskust.
 
 **Ragnar Õige**
 
