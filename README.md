@@ -43,6 +43,8 @@ The main goal of this project is to create a **functional website for a band cal
 
 
 # PÄEV 3
+- We finished writing the code
+- We talked about the outcome of the project and if everyone are satisfied by the results
 
 -----------
 
