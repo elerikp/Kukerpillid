@@ -53,11 +53,12 @@ The main goal of this project is to create a **functional website for a band cal
 2. Üks pehme oskus, mida õppisin ja endas arendasin.
 3. Üks tehniline oskus, mida õppisin ja endas arendasin.
 
-**Eleri Kuptis**
+**Eleri Kupits**
 
-1. 
-2. 
-3. 
+1. Kasutan Figmat ja julgen katsetada erinevaid koodifunktsioone.
+2. Õppisin olema natuke kannatlikum nimetamatute asjade osas.
+3. Õppisin Figmast exportima kontenti ja lisama selle koodi.
+
 
 **Taaniel Tiidussalu**
 
