@@ -88,7 +88,7 @@ The main goal of this project is to create a **functional website for a band cal
 
 **Kaspar Truu**
 
-1. 
-2. 
-3. 
+1. Oskan paremine seletada teistele ülesandeid ja aidata neid.
+2. õppisin ükshaaval aitama teisi liikmeid.
+3. ....
 
